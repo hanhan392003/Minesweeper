@@ -26,6 +26,9 @@ screen = pygame.display.set_mode(screen_size)
 pygame.display.set_caption("Minesweeper")
 clock = pygame.time.Clock()
 
+pygame.mixer.music.load('01 BGM #01.mp3')
+pygame.mixer.music.play(-1)
+
 # size of the grid
 width = 16
 height = 16
